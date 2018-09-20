@@ -1,0 +1,26 @@
+[Unit]
+Description=Vapexcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=vapexcoin
+Group=vapexcoin
+
+Type=forking
+PIDFile=/var/lib/vapexcoind/vapexcoind.pid
+
+ExecStart=/usr/bin/vapexcoind -daemon -pid=/var/lib/vapexcoind/vapexcoind.pid \
+          -conf=/etc/vapexcoin/vapexcoin.conf -datadir=/var/lib/vapexcoind
+
+ExecStop=-/usr/bin/vapexcoin-cli -conf=/etc/vapexcoin/vapexcoin.conf \
+         -datadir=/var/lib/vapexcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

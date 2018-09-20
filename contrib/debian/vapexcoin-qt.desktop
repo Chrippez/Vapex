@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Vapexcoin
+Comment=Vapexcoin P2P Cryptocurrency
+Comment[fr]=Vapexcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Vapexcoin, eşten eşe kriptografik sanal para birimi
+Exec=vapexcoin-qt %u
+Terminal=false
+Type=Application
+Icon=vapexcoin128
+MimeType=x-scheme-handler/vapexcoin;
+Categories=Office;Finance;

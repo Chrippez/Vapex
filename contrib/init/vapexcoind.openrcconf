@@ -1,0 +1,26 @@
+# /etc/conf.d/vapexcoind: config file for /etc/init.d/vapexcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/vapexcoin/vapexcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vapexcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vapexcoind.pid"
+
+# Where to write vapexcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vapexcoind"
+
+# User and group to own vapexcoind process
+#BITCOIND_USER="vapexcoin"
+#BITCOIND_GROUP="vapexcoin"
+
+# Path to vapexcoind executable
+#BITCOIND_BIN="/usr/bin/vapexcoind"
+
+# Nice value to run vapexcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

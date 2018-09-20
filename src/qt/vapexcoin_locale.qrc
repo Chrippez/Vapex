@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/vapexcoin_bg.qm</file>
+        <file alias="ca">locale/vapexcoin_ca.qm</file>
+        <file alias="cs">locale/vapexcoin_cs.qm</file>
+        <file alias="da">locale/vapexcoin_da.qm</file>
+        <file alias="de">locale/vapexcoin_de.qm</file>
+        <file alias="en">locale/vapexcoin_en.qm</file>
+        <file alias="en_US">locale/vapexcoin_en_US.qm</file>
+        <file alias="es">locale/vapexcoin_es.qm</file>
+        <file alias="fi">locale/vapexcoin_fi.qm</file>
+        <file alias="fr_FR">locale/vapexcoin_fr_FR.qm</file>
+        <file alias="hr">locale/vapexcoin_hr.qm</file>
+        <file alias="it">locale/vapexcoin_it.qm</file>
+        <file alias="ja">locale/vapexcoin_ja.qm</file>
+        <file alias="ko_KR">locale/vapexcoin_ko_KR.qm</file>
+        <file alias="nl">locale/vapexcoin_nl.qm</file>
+        <file alias="pl">locale/vapexcoin_pl.qm</file>
+        <file alias="pt">locale/vapexcoin_pt.qm</file>
+        <file alias="pt_BR">locale/vapexcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/vapexcoin_ro_RO.qm</file>
+        <file alias="ru">locale/vapexcoin_ru.qm</file>
+        <file alias="sk">locale/vapexcoin_sk.qm</file>
+        <file alias="sv">locale/vapexcoin_sv.qm</file>
+        <file alias="tr">locale/vapexcoin_tr.qm</file>
+        <file alias="uk">locale/vapexcoin_uk.qm</file>
+        <file alias="zh_CN">locale/vapexcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/vapexcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
